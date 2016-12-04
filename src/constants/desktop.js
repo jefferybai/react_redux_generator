@@ -1,0 +1,23 @@
+//启动应用
+export const DESKTOP_START_UP_APP = 'DESKTOP_START_UP_APP'
+
+//新建一个窗口面板实例
+export const DESKTOP_NEW_PANEL = 'DESKTOP_NEW_PANEL'
+
+//关闭窗口面板
+export const DESKTOP_SHOT_DOWN_PANEL = 'DESKTOP_SHOT_DOWN_PANEL'
+
+//最小化窗口面板
+export const DESKTOP_MINIMIZE_PANEL = 'DESKTOP_MINIMIZE_PANEL'
+
+//聚焦窗口面板
+export const DESKTOP_FOCUS_PANEL = 'DESKTOP_FOCUS_PANEL'
+
+//窗口面板新增一个标签页
+export const DESKTOP_PANEL_NEW_TAB = 'DESKTOP_PANEL_NEW_TAB'
+
+//窗口面板关闭一个标签页
+export const DESKTOP_PANEL_REMOVE_TAB = 'DESKTOP_PANEL_REMOVE_TAB'
+
+//窗口面板聚焦标签页
+export const DESKTOP_PANEL_FOCUS_TAB = 'DESKTOP_PANEL_FOCUS_TAB'

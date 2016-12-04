@@ -1,0 +1,137 @@
+@import "~normalize.css/normalize.css";
+@import "~antd/lib/style/themes/default";
+@import "./antd_default";
+@import "./bs_default";
+
+/***************  antd ***************/
+// antd core
+@import "~antd/lib/style/mixins/index";
+@import "~antd/lib/style/core/iconfont";
+@import "~antd/lib/style/core/motion";
+
+// antd Components
+// @import "~antd/lib/affix/style/index";
+// @import "~antd/lib/alert/style/index";
+// @import "~antd/lib/badge/style/index";
+// @import "~antd/lib/breadcrumb/style/index";
+// @import "~antd/lib/button/style/index";
+// @import "~antd/lib/calendar/style/index";
+// @import "~antd/lib/card/style/index";
+// @import "~antd/lib/carousel/style/index";
+// @import "~antd/lib/cascader/style/index";
+// @import "~antd/lib/checkbox/style/index";
+// @import "~antd/lib/collapse/style/index";
+// @import "~antd/lib/date-picker/style/index";
+// @import "~antd/lib/dropdown/style/index";
+// @import "~antd/lib/form/style/index";
+// @import "~antd/lib/input/style/index";
+// @import "~antd/lib/input-number/style/index";
+// @import "~antd/lib/layout/style/index";
+// @import "~antd/lib/menu/style/index";
+// @import "~antd/lib/message/style/index";
+@import "~antd/lib/modal/style/index";
+// @import "~antd/lib/notification/style/index";
+// @import "~antd/lib/pagination/style/index";
+// @import "~antd/lib/popover/style/index";
+// @import "~antd/lib/progress/style/index";
+// @import "~antd/lib/radio/style/index";
+// @import "~antd/lib/rate/style/index";
+// @import "~antd/lib/select/style/index";
+// @import "~antd/lib/slider/style/index";
+// @import "~antd/lib/spin/style/index";
+// @import "~antd/lib/steps/style/index";
+// @import "~antd/lib/switch/style/index";
+// @import "~antd/lib/table/style/index";
+@import "~antd/lib/tabs/style/index";
+// @import "~antd/lib/tag/style/index";
+// @import "~antd/lib/time-picker/style/index";
+// @import "~antd/lib/timeline/style/index";
+// @import "~antd/lib/tooltip/style/index";
+// @import "~antd/lib/transfer/style/index";
+// @import "~antd/lib/tree/style/index";
+// @import "~antd/lib/tree-select/style/index";
+// @import "~antd/lib/upload/style/index";
+
+
+/***************  bootstrap ***************/
+// bootstrap Components
+@import "~bootstrap/less/utilities";
+//@import "~bootstrap/less/print";
+@import "~bootstrap/less/glyphicons";
+
+// Core CSS
+@import "~bootstrap/less/scaffolding";
+@import "~bootstrap/less/type";
+// @import "~bootstrap/less/code";
+@import "~bootstrap/less/grid";
+// @import "~bootstrap/less/tables";
+@import "~bootstrap/less/forms";
+@import "~bootstrap/less/buttons";
+
+// Components
+@import "~bootstrap/less/component-animations";
+//@import "~bootstrap/less/dropdowns";
+//@import "~bootstrap/less/button-groups";
+@import "~bootstrap/less/input-groups";
+@import "~bootstrap/less/navs";
+@import "~bootstrap/less/navbar";
+//@import "~bootstrap/less/breadcrumbs";
+//@import "~bootstrap/less/pagination";
+//@import "~bootstrap/less/pager";
+//@import "~bootstrap/less/labels";
+//@import "~bootstrap/less/badges";
+//@import "~bootstrap/less/jumbotron";
+@import "~bootstrap/less/thumbnails";
+@import "~bootstrap/less/alerts";
+//@import "~bootstrap/less/progress-bars";
+//@import "~bootstrap/less/media";
+//@import "~bootstrap/less/list-group";
+//@import "~bootstrap/less/panels";
+//@import "~bootstrap/less/responsive-embed";
+//@import "~bootstrap/less/wells";
+@import "~bootstrap/less/close";
+
+// Components w/ JavaScript
+//@import "~bootstrap/less/modals";
+@import "~bootstrap/less/tooltip";
+@import "~bootstrap/less/popovers";
+//@import "~bootstrap/less/carousel";
+
+// Utility classes
+// @import "~bootstrap/less/responsive-utilities";
+
+.btn-animation {
+    position: relative;
+    &:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        content: " ";
+        opacity: 0.5;
+        border-radius: 10%;
+    }
+    &:active {
+        &:after {
+            animation: btn-animation-focus .2s;
+        }
+    }
+    &:focus {
+        &:after {
+            animation: btn-animation-focus .5s;
+        }
+    }
+}
+
+@keyframes btn-animation-focus {
+    from {
+        left: 40%;
+        right: 40%;
+        background-color: #fff;
+    }
+    to {
+        left: 0;
+        right: 0;
+    }
+}

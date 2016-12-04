@@ -1,0 +1,248 @@
+[{
+    "appDesc": {
+        "icon": "/images/icon-ssh.png",
+        "indexUrl": "https://ssh.paratera.com/?account_id=113"
+    }, "appIconPath": "", "appId": "01_GUANGZHOU_paratera_60", "appName": "paratera_60@广州超算 SSH", "version": "1.0"
+}, {
+    "appDesc": {
+        "icon": "/images/icon-ssh.png",
+        "indexUrl": "https://ssh.paratera.com/?account_id=329"
+    }, "appIconPath": "", "appId": "01_WUXI_para_wx", "appName": "para_wx@无锡超算 SSH", "version": "1.0"
+}, {
+    "appDesc": {
+        "icon": "/images/icon-ssh.png",
+        "indexUrl": "https://ssh.paratera.com/?account_id=341"
+    }, "appIconPath": "", "appId": "01_LVLIANG_paclby", "appName": "paclby@吕梁超算 SSH", "version": "1.0"
+}, {
+    "appDesc": {
+        "icon": "/images/icon-ssh.png",
+        "indexUrl": "https://ssh.paratera.com/?account_id=200"
+    }, "appIconPath": "", "appId": "01_PART1_para08", "appName": "para08@长沙超算 SSH", "version": "1.0"
+}, {
+    "appDesc": {
+        "icon": "/images/icon-ssh.png",
+        "indexUrl": "https://ssh.paratera.com/?account_id=296"
+    }, "appIconPath": "", "appId": "01_SCE_wangzf", "appName": "wangzf@中国国家网格 SSH", "version": "1.0"
+}, {
+    "appDesc": {
+        "icon": "/images/icon-ssh.png",
+        "indexUrl": "https://ssh.paratera.com/?account_id=299"
+    }, "appIconPath": "", "appId": "01_GK_nsfn1707_BXKJ", "appName": "nsfn1707_BXKJ@深圳超算 SSH", "version": "1.0"
+}, {
+    "appDesc": {
+        "icon": "/images/icon-ssh.png",
+        "indexUrl": "https://ssh.paratera.com/?account_id=290"
+    }, "appIconPath": "", "appId": "01_BEIJING_pp_bcc", "appName": "pp_bcc@北京市计算中心 SSH", "version": "1.0"
+}, {
+    "appDesc": {
+        "icon": "/images/icon-ssh.png",
+        "indexUrl": "https://ssh.paratera.com/?account_id=293"
+    }, "appIconPath": "", "appId": "01_PAC_PAC001", "appName": "PAC001@本地KNL集群 SSH", "version": "1.0"
+}, {
+    "appDesc": {
+        "icon": "/images/icon-ssh.png",
+        "indexUrl": "https://ssh.paratera.com/?account_id=467"
+    }, "appIconPath": "", "appId": "01_TIANJIN_pp_tj", "appName": "pp_tj@天津超算 SSH", "version": "1.0"
+}, {
+    "appId": "07_ssh-sh",
+    "appName": "上海超算 SSH",
+    "version": "1.0",
+    "appDesc": {
+        "indexUrl": "https://ssh.paratera.com/?appId=ssh-sh",
+        "icon": "/images/icon-ssh.png"
+    },
+    "appIconPath": ""
+}, {
+    "appId": "09_ssh-jn",
+    "appName": "济南超算 SSH",
+    "version": "1.0",
+    "appDesc": {
+        "indexUrl": "https://ssh.paratera.com/?appId=ssh-jn",
+        "icon": "/images/icon-ssh.png"
+    },
+    "appIconPath": ""
+}, {
+    "appId": "10_ssh-cas",
+    "appName": "中科院超算 SSH",
+    "version": "1.0",
+    "appDesc": {
+        "indexUrl": "https://ssh.paratera.com/?appId=ssh-cas",
+        "icon": "/images/icon-ssh.png"
+    },
+    "appIconPath": ""
+}, {
+    "appId": "10.1_ssh-gongn",
+    "appName": "本地CPU集群 SSH",
+    "version": "1.0",
+    "appDesc": {
+        "indexUrl": "https://ssh.tsinghua.paratera.com/?appId=ssh-gongn",
+        "icon": "/images/icon-ssh.png"
+    },
+    "appIconPath": ""
+}, {
+    "appId": "11_scp-gz",
+    "appName": "广州超算 SCP",
+    "version": "1.0",
+    "appDesc": {"indexUrl": "scp/index.html", "icon": "/images/icon-ftp.png"},
+    "appIconPath": ""
+}, {
+    "appId": "12_vnc-demo",
+    "appName": "VNC",
+    "version": "1.0",
+    "appDesc": {
+        "indexUrl": "https://cloud.paratera.com:5003/guacamole-0.9.10-incubating/",
+        "icon": "https://cloud.paratera.com/easteregg/icon/icon-vnc.png"
+    },
+    "appIconPath": ""
+}, {
+    "appId": "13_ngago",
+    "appName": "m6a Finder",
+    "version": "1.0",
+    "appDesc": {
+        "indexUrl": "https://cloud.paratera.com:5004/finder.html",
+        "icon": "https://cloud.paratera.com/easteregg/icon/icon-m6a.png"
+    },
+    "appIconPath": ""
+}, {
+    "appId": "131_gaussian",
+    "appName": "Gaussian",
+    "version": "1.0",
+    "appDesc": {
+        "indexUrl": "https://paracloud.paratera.com/#/desktop/appForm?id=gaussian",
+        "icon": "https://cloud.paratera.com/easteregg/icon/icon-gaussian.png"
+    },
+    "appIconPath": ""
+}, {
+    "appId": "132_namd",
+    "appName": "NAMD",
+    "version": "1.0",
+    "appDesc": {
+        "indexUrl": "https://paracloud.paratera.com/#/desktop/appForm?id=namd",
+        "icon": "https://cloud.paratera.com/easteregg/icon/icon-namd.png"
+    },
+    "appIconPath": ""
+}, {
+    "appId": "133_orca",
+    "appName": "ORCA",
+    "version": "1.0",
+    "appDesc": {
+        "indexUrl": "https://paracloud.paratera.com/#/desktop/appForm?id=orca",
+        "icon": "https://cloud.paratera.com/easteregg/icon/icon-orca.png"
+    },
+    "appIconPath": ""
+}, {
+    "appId": "134_vasp",
+    "appName": "VASP",
+    "version": "1.0",
+    "appDesc": {
+        "indexUrl": "https://paracloud.paratera.com/#/desktop/appForm?id=orca",
+        "icon": "https://cloud.paratera.com/easteregg/icon/icon-vasp.png"
+    },
+    "appIconPath": ""
+}, {
+    "appId": "135_abaqus",
+    "appName": "ABAQUS",
+    "version": "1.0",
+    "appDesc": {
+        "indexUrl": "https://paracloud.paratera.com/#/desktop/appForm?id=abaqus",
+        "icon": "https://cloud.paratera.com/easteregg/icon/icon-abaqus.png"
+    },
+    "appIconPath": ""
+}, {
+    "appId": "136_ansys",
+    "appName": "ANSYS",
+    "version": "1.0",
+    "appDesc": {
+        "indexUrl": "https://paracloud.paratera.com/#/desktop/appForm?id=ansys",
+        "icon": "https://cloud.paratera.com/easteregg/icon/icon-ansys.png"
+    },
+    "appIconPath": ""
+}, {
+    "appId": "137_ansys_cfx",
+    "appName": "ANSYS CFX",
+    "version": "1.0",
+    "appDesc": {
+        "indexUrl": "https://paracloud.paratera.com/#/desktop/appForm?id=cfx",
+        "icon": "https://cloud.paratera.com/easteregg/icon/icon-cfx.png"
+    },
+    "appIconPath": ""
+}, {
+    "appId": "138_ansys_fluent",
+    "appName": "ANSYS FLUENT",
+    "version": "1.0",
+    "appDesc": {
+        "indexUrl": "https://paracloud.paratera.com/#/desktop/appForm?id=fluent",
+        "icon": "https://cloud.paratera.com/easteregg/icon/icon-fluent.png"
+    },
+    "appIconPath": ""
+}, {
+    "appId": "139_ansys_ls_dyna",
+    "appName": "ANSYS LS-DYNA",
+    "version": "1.0",
+    "appDesc": {
+        "indexUrl": "https://paracloud.paratera.com/#/desktop/appForm?id=lsdyna",
+        "icon": "https://cloud.paratera.com/easteregg/icon/icon-lsdyna.png"
+    },
+    "appIconPath": ""
+}, {
+    "appId": "1391_msc_nastran",
+    "appName": "MSC Nastran",
+    "version": "1.0",
+    "appDesc": {
+        "indexUrl": "https://paracloud.paratera.com/#/desktop/appForm?id=nastran",
+        "icon": "https://cloud.paratera.com/easteregg/icon/icon-nastran.png"
+    },
+    "appIconPath": ""
+}, {
+    "appId": "1392_star-ccm+",
+    "appName": "STAR-CCM+",
+    "version": "1.0",
+    "appDesc": {
+        "indexUrl": "https://paracloud.paratera.com/#/desktop/appForm?id=starccm",
+        "icon": "https://cloud.paratera.com/easteregg/icon/icon-starccm.png"
+    },
+    "appIconPath": ""
+}, {
+    "appId": "1393_bwa",
+    "appName": "BWA",
+    "version": "1.0",
+    "appDesc": {
+        "indexUrl": "https://paracloud.paratera.com/#/desktop/appForm?id=bwa",
+        "icon": "https://cloud.paratera.com/easteregg/icon/icon-bwa.png"
+    },
+    "appIconPath": ""
+}, {
+    "appId": "14_tsdemo",
+    "appName": "百度首页",
+    "version": "1.0",
+    "appDesc": {
+        "indexUrl": "https://www.baidu.com/?app=tsdemo",
+        "icon": "/images/icon-baidu.png"
+    },
+    "appIconPath": ""
+}, {
+    "appId": "50_portal-sce",
+    "appName": "中国国家网格 Portal",
+    "version": "1.0",
+    "appDesc": {
+        "indexUrl": "https://cloud.paratera.com:5005",
+        "icon": "https://cloud.paratera.com/easteregg/icon/icon-cngrid-portal.png"
+    },
+    "appIconPath": ""
+}, {
+    "appId": "999_job",
+    "appName": "作业管理器",
+    "version": "1.0",
+    "appDesc": {
+        "desc": "作业管理器",
+        "indexUrl": "./app/jobs/index.html",
+        "icon": "/images/icon-jobmgr.png"
+    },
+    "appIconPath": ""
+}, {
+    "appDesc": {
+        "desc": "超算账号管理器",
+        "icon": "/images/icon-account.png",
+        "indexUrl": "./app/putty_login/index.html?tool=putty"
+    }, "appIconPath": "", "appId": "991_putty_self", "appName": "超算账号管理器", "version": "1.0"
+}]

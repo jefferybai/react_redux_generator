@@ -1,0 +1,13 @@
+{
+    "userId": "1",
+    "password": null,
+    "role": 8192,
+    "sex": 0,
+    "email": "admin@paratera.com",
+    "name": "系统管理员",
+    "mphone": null,
+    "deleted": false,
+    "createDate": 1441036800000,
+    "updateDate": 1386811701000,
+    "idCardNumber": null
+}

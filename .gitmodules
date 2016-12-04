@@ -1,0 +1,3 @@
+[submodule "libs"]
+	path = libs
+	url = git@git.paratera.net:wuhan/web_component.git

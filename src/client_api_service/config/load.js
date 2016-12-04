@@ -1,0 +1,1 @@
+module.exports = require('../../../libs/common/client_api_service/config/load');

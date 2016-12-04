@@ -1,0 +1,86 @@
+[
+    {
+        "appId": 1,
+        "appName": "SSH",
+        "version": "1.0.0",
+        "appDesc": {
+            "desc": "web ssh",
+            "indexUrl": "http://ssh.paratera.com:3000/",
+            "icon": "http://localhost:3000/images/icon-terminal.png"
+        }
+    },
+    {
+        "appId": 2,
+        "appName": "SCP",
+        "version": "1.0.0",
+        "appDesc": {
+            "desc": "这是SCP说明文字",
+            "indexUrl": "http://www.baidu.com",
+            "icon": "http://localhost:3000/images/icon-ftp.png"
+        }
+    },
+    {
+        "appId": 3,
+        "appName": "VASP",
+        "version": "1.0.0",
+        "appDesc": {
+            "desc": "这是VASP说明文字",
+            "indexUrl": "http://www.paratera.com/",
+            "icon": "http://localhost:3000/images/icon-vasp.png"
+        }
+    },
+    {
+        "appId": 4,
+        "appName": "blank",
+        "version": "1.0.0",
+        "appDesc": {
+            "desc": "这是blank说明文字",
+            "indexUrl": "about:blank",
+            "icon": "http://localhost:3000/images/icon-vasp.png"
+        }
+    },
+    {
+        "appId": 5,
+        "appName": "无锡超算 Putty",
+        "version": "1.0.0",
+        "appDesc": {
+            "type": "inline-tool",
+            "desc": "无锡超算 Putty",
+            "indexUrl": "putty.exe",
+            "optionUrl": "https://ssh.paratera.com/api/account/ssh-wx",
+            "icon": "http://localhost:3000/images/icon_putty.png"
+        }
+    },
+    {
+        "appId": 6,
+        "appName": "无锡超算 Putty 自助登录",
+        "version": "1.0.0",
+        "appDesc": {
+            "desc": "无锡超算 Putty 自助登录",
+            "indexUrl": "./app/putty_login/index.html?tool=putty&appId=ssh-wx",
+            "icon": "http://localhost:3000/images/icon_putty.png"
+        }
+    },
+    {
+        "appId": 7,
+        "appName": "无锡超算 winscp",
+        "version": "1.0.0",
+        "appDesc": {
+            "type": "inline-tool",
+            "desc": "无锡超算 winscp",
+            "indexUrl": "WinSCP.exe",
+            "optionUrl": "https://ssh.paratera.com/api/account/ssh-wx",
+            "icon": "http://localhost:3000/images/icon_putty.png"
+        }
+    },
+    {
+        "appId": 8,
+        "appName": "无锡超算 winscp 自助登录",
+        "version": "1.0.0",
+        "appDesc": {
+            "desc": "无锡超算 winscp 自助登录",
+            "indexUrl": "./app/putty_login/index.html?tool=scp&appId=ssh-wx",
+            "icon": "http://localhost:3000/images/icon_putty.png"
+        }
+    }
+]

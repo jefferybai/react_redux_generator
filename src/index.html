@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>标题®title</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <style>
+            /*首页加载动画*/
+            .root-loading-title {
+                font-size: 18px;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                margin-left: -47px;
+                text-shadow: 2px 2px 4px #ff0;
+            }
+
+            .cssload-wrap {
+                bottom: 0;
+                left: 0;
+                margin: auto;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+
+            .cssload-wrap .translate {
+                animation: root-loading-animation-translate 2300ms cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
+                bottom: 0;
+                height: 14px;
+                left: 0;
+                margin: auto;
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 14px;
+            }
+
+            .cssload-wrap .scale {
+                animation: scale 2300ms cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
+                height: 100%;
+                width: 100%;
+            }
+
+            .cssload-wrap:nth-child(1) {
+                transform: rotate(320deg);
+            }
+
+            .cssload-wrap:nth-child(1) .translate,
+            .cssload-wrap:nth-child(1) .scale {
+                animation-delay: 0ms;
+            }
+
+            .cssload-wrap:nth-child(1) .scale {
+                background: rgb(204,255,102);
+            }
+
+            .cssload-wrap:nth-child(2) {
+                transform: rotate(280deg);
+            }
+
+            .cssload-wrap:nth-child(2) .translate,
+            .cssload-wrap:nth-child(2) .scale {
+                animation-delay: -255.56ms;
+            }
+
+            .cssload-wrap:nth-child(2) .scale {
+                background: rgb(102,255,204);
+            }
+
+            .cssload-wrap:nth-child(3) {
+                transform: rotate(240deg);
+            }
+
+            .cssload-wrap:nth-child(3) .translate,
+            .cssload-wrap:nth-child(3) .scale {
+                animation-delay: -511.11ms;
+            }
+
+            .cssload-wrap:nth-child(3) .scale {
+                background: rgb(102,102,255);
+            }
+
+            .cssload-wrap:nth-child(4) {
+                transform: rotate(200deg);
+            }
+
+            .cssload-wrap:nth-child(4) .translate,
+            .cssload-wrap:nth-child(4) .scale {
+                animation-delay: -766.67ms;
+            }
+
+            .cssload-wrap:nth-child(4) .scale {
+                background: rgb(255,102,204);
+            }
+
+            .cssload-wrap:nth-child(5) {
+                transform: rotate(160deg);
+            }
+
+            .cssload-wrap:nth-child(5) .translate,
+            .cssload-wrap:nth-child(5) .scale {
+                animation-delay: -1022.22ms;
+            }
+
+            .cssload-wrap:nth-child(5) .scale {
+                background: rgb(255,204,102);
+            }
+
+            .cssload-wrap:nth-child(6) {
+                transform: rotate(120deg);
+            }
+
+            .cssload-wrap:nth-child(6) .translate,
+            .cssload-wrap:nth-child(6) .scale {
+                animation-delay: -1277.78ms;
+            }
+
+            .cssload-wrap:nth-child(6) .scale {
+                background: rgb(102,255,102);
+            }
+
+            .cssload-wrap:nth-child(7) {
+                transform: rotate(80deg);
+            }
+
+            .cssload-wrap:nth-child(7) .translate,
+            .cssload-wrap:nth-child(7) .scale {
+                animation-delay: -1533.33ms;
+            }
+
+            .cssload-wrap:nth-child(7) .scale {
+                background: rgb(102,204,255);
+            }
+
+            .cssload-wrap:nth-child(8) {
+                transform: rotate(40deg);
+            }
+
+            .cssload-wrap:nth-child(8) .translate,
+            .cssload-wrap:nth-child(8) .scale {
+                animation-delay: -1788.89ms;
+            }
+
+            .cssload-wrap:nth-child(8) .scale {
+                background: rgb(204,102,255);
+            }
+
+            .cssload-wrap:nth-child(9) {
+                transform: rotate(0deg);
+            }
+
+            .cssload-wrap:nth-child(9) .translate,
+            .cssload-wrap:nth-child(9) .scale {
+                animation-delay: -2044.44ms;
+            }
+
+            .cssload-wrap:nth-child(9) .scale {
+                background: rgb(255,102,102);
+            }
+
+            @keyframes root-loading-animation-translate {
+                0% {
+                    transform: translate3d(-600%, 0, 0);
+                }
+                50% {
+                    transform: translate3d(600%, 0, 0);
+                }
+                100% {
+                    transform: translate3d(-600%, 0, 0);
+                }
+            }
+
+            @keyframes root-loading-animation-scale {
+                0% {
+                    transform: translateZ(0) scale(0.75, 1);
+                }
+                25% {
+                    transform: translateZ(0) scale(1.5, 0.5);
+                }
+                50% {
+                    transform: translateZ(0) scale(0.75, 1);
+                }
+                75% {
+                    transform: translateZ(0) scale(1.5, 0.5);
+                }
+                100% {
+                    transform: translateZ(0) scale(0.75, 1);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="root">
+            <div class="cssload-wrap">
+                <div class="translate">
+                    <div class="scale"></div>
+                </div>
+            </div>
+            <div class="cssload-wrap">
+                <div class="translate">
+                    <div class="scale"></div>
+                </div>
+            </div>
+            <div class="cssload-wrap">
+                <div class="translate">
+                    <div class="scale"></div>
+                </div>
+            </div>
+            <div class="cssload-wrap">
+                <div class="translate">
+                    <div class="scale"></div>
+                </div>
+            </div>
+            <div class="cssload-wrap">
+                <div class="translate">
+                    <div class="scale"></div>
+                </div>
+            </div>
+            <div class="cssload-wrap">
+                <div class="translate">
+                    <div class="scale"></div>
+                </div>
+            </div>
+            <div class="cssload-wrap">
+                <div class="translate">
+                    <div class="scale"></div>
+                </div>
+            </div>
+            <div class="cssload-wrap">
+                <div class="translate">
+                    <div class="scale"></div>
+                </div>
+            </div>
+            <div class="cssload-wrap">
+                <div class="translate">
+                    <div class="scale"></div>
+                </div>
+            </div>
+            <div class="root-loading-title">cloud desktop</div>
+        </div>
+        <script src="static/bundle.js"></script>
+    </body>
+</html>
